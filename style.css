@@ -1,0 +1,129 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/Cadu_Fernandes__7R43366-1-1620x1080.jpg'); /* Uma imagem de fundo que remete ao sertanejo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 800px;
+    border: 2px solid #8B4513; /* Cor marrom para borda */
+}
+
+h1 {
+    text-align: center;
+    color: #8B4513; /* Cor marrom para o título */
+    font-family: 'Georgia', serif; /* Fonte serifada para um toque rústico */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+    transition: border 0.3s;
+}
+
+input:focus {
+    border-color: #8B4513; /* Cor de foco no input */
+}
+
+button {
+    padding: 10px;
+    background-color: #8B4513; /* Cor do botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #6F3C29; /* Cor ao passar o mouse */
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #8B4513; /* Cor do cabeçalho da tabela */
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #e2e2e2;
+}
+
+#resultadoConsulta {
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+#toggleFanList {
+    margin-top: 10px;
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#toggleFanList:hover {
+    background-color: #8B4513;
+}
+#toggleFanList {
+    padding: 10px 20px;
+    background-color: #8B4513; /* Cor do botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%; /* Faz com que o botão ocupe toda a largura do contêiner */
+    max-width: 200px; /* Limita a largura máxima do botão */
+}
+
+#toggleFanList:hover {
+    background-color: #8B4513; /* Cor do botão ao passar o mouse */
+}
+
